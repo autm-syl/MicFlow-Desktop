@@ -116,6 +116,26 @@
             color: var(--dark);
             font-size: 1.1rem;
         }
+        .legal-links {
+            margin-top: 20px;
+            font-size: 0.85rem;
+        }
+
+        .legal-links a {
+            color: #64748b;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.2s;
+        }
+
+        .legal-links a:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
+        .legal-links span {
+            color: #cbd5e1;
+        }
 
         footer {
             text-align: center;
@@ -177,6 +197,11 @@
 
     <footer>
         &copy; 2026 MicFlow Project. Built for performance.
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <span>•</span>
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
     </footer>
 </div>
 
