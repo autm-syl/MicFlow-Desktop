@@ -1,44 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - MicFlow</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-        h1 { color: #2563eb; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { margin-top: 30px; color: #1e293b; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #666; border-top: 1px solid #eee; padding-top: 20px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — MicFlow</title>
+<style>
+  :root {
+    --bg: #f6f8fb;
+    --card: #ffffff;
+    --text: #1f2933;
+    --muted: #66727f;
+    --accent: #2563eb;
+    --border: #e5e9f0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 32px 20px 72px; }
+  header.hero {
+    background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+    color: #fff;
+    border-radius: 18px;
+    padding: 40px 34px;
+    box-shadow: 0 12px 30px rgba(37, 99, 235, .18);
+  }
+  header.hero .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,.15);
+    padding: 6px 14px; border-radius: 999px;
+    font-size: 13px; font-weight: 600; letter-spacing: .3px;
+  }
+  header.hero h1 { margin: 18px 0 6px; font-size: 30px; letter-spacing: -.5px; }
+  header.hero p { margin: 0; opacity: .9; font-size: 15px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 30px;
+    margin-top: 22px;
+    box-shadow: 0 4px 14px rgba(16, 24, 40, .04);
+  }
+  h2 {
+    font-size: 19px; margin: 4px 0 12px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  h2 .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex: none; }
+  h3 { font-size: 16px; margin: 20px 0 6px; }
+  p, li { font-size: 15.5px; color: var(--text); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .muted { color: var(--muted); font-size: 14px; }
+  .toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .toc a {
+    background: #eef2fb; padding: 7px 13px; border-radius: 999px;
+    font-size: 13.5px; font-weight: 500;
+  }
+  .contact-box {
+    background: #eff4ff; border: 1px solid #dbe6ff;
+    border-radius: 14px; padding: 18px 22px; margin-top: 12px;
+  }
+  .contact-box a { font-weight: 600; }
+  footer {
+    text-align: center; color: var(--muted); font-size: 13.5px; margin-top: 34px;
+  }
+  .updated { margin-top: 8px; font-size: 13.5px; }
+</style>
 </head>
 <body>
+<div class="wrap">
+
+  <header class="hero">
+    <span class="badge">🎙️ MicFlow</span>
     <h1>Privacy Policy</h1>
-    <p>Last updated: May 05, 2026</p>
+    <p>How MicFlow handles your data and privacy.</p>
+    <p class="updated" style="opacity:.85;">Last updated: July 8, 2026</p>
+  </header>
 
-    <p>MicFlow ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our mobile application and desktop software.</p>
+  <div class="card">
+    <p>This Privacy Policy explains how the <strong>MicFlow</strong> mobile application
+    ("the App", "we", "us") handles information when you use it. By using the App,
+    you agree to the practices described below.</p>
+    <p class="muted">MicFlow turns your phone into a wireless microphone and speaker
+    that streams audio to and from a paired PC over your local Wi‑Fi network.</p>
 
-    <h2>1. Data Collection</h2>
-    <p><strong>Audio Data:</strong> MicFlow captures audio via your device's microphone or system output for the sole purpose of streaming it to your connected device. <strong>We do not record, store, or upload your audio data to any external servers.</strong> All audio transmission occurs directly over your local Wi-Fi network.</p>
-    <p><strong>Personal Information:</strong> We do not require account registration. We do not collect personal identifiers such as names, email addresses, or phone numbers.</p>
-
-    <h2>2. Device Permissions</h2>
-    <p>To function correctly, MicFlow requires the following permissions:</p>
-    <ul>
-        <li><strong>Microphone:</strong> To capture your voice for the Wireless Mic feature.</li>
-        <li><strong>Local Network:</strong> To discover and connect to your PC/Mobile device.</li>
-    </ul>
-
-    <h2>3. Security</h2>
-    <p>Since data remains within your private local network, the security of your audio stream depends on your Wi-Fi network's security settings. We recommend using a password-protected WPA2/WPA3 network.</p>
-
-    <h2>4. Third-Party Services</h2>
-    <p>MicFlow does not integrate with third-party analytics or advertising SDKs. No data is shared with third parties.</p>
-
-    <h2>5. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, you can contact us at: <strong>lecuong.bka@gmail.com</strong></p>
-
-    <div class="footer">
-        &copy; 2026 MicFlow Project. All rights reserved.
+    <div class="toc">
+      <a href="#collect">What we collect</a>
+      <a href="#audio">Audio &amp; network</a>
+      <a href="#ads">Advertising</a>
+      <a href="#report">Issue reports</a>
+      <a href="#children">Children</a>
+      <a href="#rights">Your choices</a>
+      <a href="#contact">Contact</a>
     </div>
+  </div>
+
+  <div class="card" id="collect">
+    <h2><span class="dot"></span>Information We Collect</h2>
+    <p>MicFlow does <strong>not require an account</strong> and we do not ask you for
+    your name, email, or other personal identifiers to use the core features.</p>
+    <p>We, as the developer, do <strong>not collect or store</strong> your audio or the
+    contents of your streams on any server. However, our advertising partner
+    (Google AdMob) may automatically collect limited technical data as described in the
+    "Advertising" section below.</p>
+  </div>
+
+  <div class="card" id="audio">
+    <h2><span class="dot"></span>Audio &amp; Local Network</h2>
+    <ul>
+      <li><strong>Microphone:</strong> When you start sending, the App accesses your
+      microphone to stream audio to your PC. Audio is transmitted directly to the
+      device you choose on your local network and is not recorded or stored by us.</li>
+      <li><strong>Local network:</strong> The App uses your local Wi‑Fi network to
+      discover and connect to your PC (via UDP). This traffic stays within your own
+      network and is not routed through our servers.</li>
+      <li><strong>IP addresses:</strong> Device IP addresses on your local network are
+      used only to establish the connection and (optionally) for your own IP‑filter
+      settings stored on your device. They are not transmitted to us.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="ads">
+    <h2><span class="dot"></span>Advertising</h2>
+    <p>MicFlow displays banner ads through <strong>Google AdMob</strong>. We have
+    configured AdMob to serve <strong>non‑personalized ads</strong>. To deliver and
+    measure ads, Google may process limited technical information such as device type,
+    coarse location (country/region), and ad interaction data, in accordance with
+    Google's policies.</p>
+    <ul>
+      <li>Google Privacy Policy:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li>How Google uses data from apps that use its services:
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a></li>
+    </ul>
+    <p>Depending on your region, the App may present a consent choice (Google's
+    User Messaging Platform) before ads are shown.</p>
+  </div>
+
+  <div class="card" id="report">
+    <h2><span class="dot"></span>Issue Reports</h2>
+    <p>If you choose to use the in‑app <strong>"Report an Issue"</strong> feature, the
+    message you write — along with an optional name you provide and basic device
+    information (device name and iOS version) — is sent to the developer so we can
+    diagnose the problem. This is entirely voluntary; if you do not submit a report,
+    none of this information is sent.</p>
+  </div>
+
+  <div class="card" id="children">
+    <h2><span class="dot"></span>Children's Privacy</h2>
+    <p>MicFlow is not directed to children under the age of 13, and we do not knowingly
+    collect personal information from children. If you believe a child has provided us
+    information, please contact us and we will take appropriate steps.</p>
+  </div>
+
+  <div class="card" id="rights">
+    <h2><span class="dot"></span>Your Choices</h2>
+    <ul>
+      <li>You can revoke microphone access at any time in your device's
+      <em>Settings ▸ Privacy ▸ Microphone</em>.</li>
+      <li>Where applicable, you can change your advertising consent choices through the
+      in‑app privacy options, or manage tracking settings on your device.</li>
+      <li>Uninstalling the App removes all locally stored settings from your device.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="contact">
+    <h2><span class="dot"></span>Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, you can reach us at:</p>
+    <div class="contact-box">
+      📧 <a href="mailto:lecuong.bka@gmail.com">lecuong.bka@gmail.com</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot"></span>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Changes will be posted on
+    this page with an updated "Last updated" date. Continued use of the App after
+    changes take effect constitutes acceptance of the revised policy.</p>
+  </div>
+
+  <footer>
+    © 2026 MicFlow. All rights reserved.
+  </footer>
+
+</div>
 </body>
 </html>
