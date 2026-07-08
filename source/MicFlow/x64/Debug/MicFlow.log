@@ -1,0 +1,19 @@
+﻿  AboutPage.cpp
+  MicFlow.cpp
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(430,25): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(454,25): warning C4566: character represented by universal-character-name '\u26A0' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(454,25): warning C4566: character represented by universal-character-name '\uFE0F' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(580,25): warning C4566: character represented by universal-character-name '\u23F3' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(621,17): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(646,17): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(813,33): warning C4566: character represented by universal-character-name '\u2705' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(813,55): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(835,21): warning C4566: character represented by universal-character-name '\u2795' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(839,25): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(854,25): warning C4566: character represented by universal-character-name '\u274C' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(887,25): warning C4566: character represented by universal-character-name '\U0001F680' cannot be represented in the current code page (1252)
+C:\Users\vd\Downloads\MicFlow\MicFlow\MicFlow.cpp(894,25): warning C4566: character represented by universal-character-name '\u23F3' cannot be represented in the current code page (1252)
+  SystemAudioSender.cpp
+C:\Users\vd\Downloads\MicFlow\MicFlow\SystemAudioSender.cpp(217,9): warning C4566: character represented by universal-character-name '\u23F9' cannot be represented in the current code page (1252)
+  Generating Code...
+  MicFlow.vcxproj -> C:\Users\vd\Downloads\MicFlow\MicFlow\x64\Debug\MicFlow.exe
