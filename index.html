@@ -1,100 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MicFlow | Professional Audio Streaming Solution</title>
-    <style>
-        :root {
-            --primary: #2563eb;
-            --secondary: #3b82f6;
-            --dark: #1e293b;
-            --light: #f8fafc;
-            --text: #334155;
-            --muted: #64748b;
-            --border: #e2e8f0;
+            font-size: 0.8rem;
+            color: #94a3b8 !important;
+            margin-top: 15px;
         }
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--light);
-            color: var(--text);
-            line-height: 1.6;
-        }
-
-        header {
-            background: linear-gradient(135deg, var(--dark) 0%, #0f172a 100%);
-            color: white;
-            padding: 80px 20px;
+        footer {
             text-align: center;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        .badge {
-            background: var(--primary);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
+            padding: 40px;
+            color: #94a3b8;
             font-size: 14px;
-            font-weight: bold;
-            text-transform: uppercase;
         }
 
-        h1 { font-size: 3rem; margin: 20px 0; }
-        h2 { color: var(--dark); font-size: 2rem; }
-
-        .hero-desc {
-            font-size: 1.2rem;
-            color: #cbd5e1;
-            max-width: 640px;
-            margin: 0 auto 30px;
+        @media (max-width: 900px) {
+            .install-options { grid-template-columns: 1fr; }
         }
 
-        .download-section {
-            margin-top: 40px;
+        @media (max-width: 768px) {
+            .features, .highlights-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 2.2rem; }
         }
+    </style>
+</head>
+<body>
 
-        .btn {
-            background: var(--primary);
-            color: white;
-            padding: 14px 28px;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-            font-size: 16px;
-            transition: all 0.3s;
-            display: inline-block;
-            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
-        }
+<header>
+    <span class="badge">Open Beta</span>
+    <h1>MicFlow</h1>
+    <p class="hero-desc">The ultimate bridge for high-fidelity audio between your PC and mobile device over Wi-Fi.</p>
 
-        .btn:hover {
-            background: var(--secondary);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
-        }
+    <div class="download-section">
+        <a href="https://apps.microsoft.com/detail/9NZZSFW4TCJD?hl=en-us&gl=US&ocid=pdpshare" class="btn">Get MicFlow from Microsoft Store</a>
+        <p class="trust-note">Recommended for most users. Microsoft Store installation avoids unknown publisher warnings.</p>
 
-        .btn.secondary {
-            background: #0f172a;
-            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.2);
-        }
+        <div class="install-options">
+            <div class="install-card">
+                <span class="option-number">1</span>
+                <h3>Install from Microsoft Store</h3>
+                <p>Download MicFlow directly from the Microsoft Store for the simplest and safest installation.</p>
+                <a href="https://apps.microsoft.com/detail/9NZZSFW4TCJD?hl=en-us&gl=US&ocid=pdpshare" class="btn">Open Store Page</a>
+            </div>
 
-        .btn.secondary:hover {
-            background: #334155;
-            box-shadow: 0 6px 20px rgba(15, 23, 42, 0.3);
-        }
+            <div class="install-card">
+                <span class="option-number">2</span>
+                <h3>Download the EXE build</h3>
+                <p>If Windows SmartScreen appears, choose More info, then Run anyway only if you downloaded MicFlow from this official page.</p>
+                <a href="https://github.com/user-attachments/files/26883843/MicFlow.zip" class="btn secondary">Download EXE</a>
+            </div>
 
-        .btn.ghost {
-            background: white;
-            color: var(--primary);
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 10px rgba(15, 23, 42, 0.05);
-        }
+            <div class="install-card">
+                <span class="option-number">3</span>
+                <h3>Build from source</h3>
+                <p>Developers can download the full source code and build MicFlow locally with Visual Studio.</p>
+                <a href="https://github.com/autm-syl/MicFlow-Desktop/tree/main/source" class="btn ghost">View Source Code</a>
+            </div>
+        </div>
+    </div>
+</header>
 
-        .btn.ghost:hover {
+<div class="container">
+    <div class="features">
+        <div class="feature-card">
+            <h3>1. Wireless PC Microphone</h3>
+            <p>Turn your smartphone into a high-fidelity wireless microphone for your computer.</p>
+            <p>MicFlow captures your voice using your mobile device's built-in hardware and streams it instantly to your PC over Wi-Fi. With optional virtual audio cable routing, it can act as a system input for Discord, Zoom, OBS, and other apps.</p>
+        </div>
+
+        <div class="feature-card">
+            <h3>2. Remote PC Speaker</h3>
+            <p>Stream your computer's system audio directly to your mobile device.</p>
+            <p>Listen to your PC's music, movies, or game audio through your phone's speakers or connected headphones. MicFlow broadcasts high-definition audio with low latency over your local network.</p>
+        </div>
+    </div>
+
+    <div class="tech-highlights">
+        <h2>Technical Highlights</h2>
+        <div class="highlights-grid">
+            <div class="highlight-item">
+                <strong>48kHz Sampling Rate</strong>
+                <span>Studio-quality audio transmission for pristine sound.</span>
+            </div>
+            <div class="highlight-item">
+                <strong>Local Wi-Fi Streaming</strong>
+                <span>Connect your PC and mobile device on the same network.</span>
+            </div>
+            <div class="highlight-item">
+                <strong>Low-Latency Engine</strong>
+                <span>Optimized for real-time synchronization between devices.</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <h2>Need Help?</h2>
+        <p>Have questions, found a bug, or want to suggest a feature? We're here to help.</p>
+        <a href="mailto:lecuong.bka@gmail.com" class="email-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; vertical-align: middle;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Contact Support
+        </a>
+        <p class="support-hours">Response time: Usually within 24 hours</p>
+    </section>
+
+    <footer>
+        &copy; 2026 MicFlow Project. Built for performance.
+        <div class="legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <span>&bull;</span>
+            <a href="terms.html">Terms &amp; Conditions</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
